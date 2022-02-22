@@ -12,4 +12,9 @@ function newItem() {
         list.append(li);
     }
 
+    //Crossing out an item from the list
+     li.on('click', function (event) {
+        li.addClass('strike');
+    });
+
 }   
